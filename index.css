@@ -1,0 +1,310 @@
+body{
+    background: 100vh;
+    background-color: rgb(192, 187, 120);
+    
+}
+.section1{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(252, 255, 255);
+    margin: 0 auto;
+    margin-top: 10%;
+    
+    
+}
+
+.photos{
+    display: flex;
+}
+.toph{
+    width: 30%;
+    height: 400px;
+    background-image: url(https://media.istockphoto.com/id/1399561967/fr/photo/jeune-femme-daffaires-afro-am%C3%A9ricaine-joyeuse-travaillant-seule-sur-une-tablette-num%C3%A9rique.jpg?s=1024x1024&w=is&k=20&c=k4jZ0IgWTdUk2qljcd_DOzfWRjpskGJNZcl9A02BMfc=);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.deg{
+    width: 188px;
+    height: 400px;
+    background-image: linear-gradient(to right, #2bcb56, #dccb67,blue);
+    opacity: 0.4;
+}
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+   font-size: 10px;
+   position: relative;
+   top: 18%;
+   line-height: 24px;
+   left: 5%;
+}
+.laire{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 116%;
+    position: relative;
+    bottom: 30%;
+    line-height: 20PX;
+
+}
+.cerlce{
+    display: flex;
+    gap: 30px;
+    /* margin-left: 116%; */
+    position: relative;
+    bottom: 32%;
+
+}
+.ce{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2bcb56;
+    border: 1px solid black;
+    position: relative;
+    left: 116%;
+    
+
+}
+.cer{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* background-color: #2bcb56; */
+    border: 1px solid black;
+    /* margin-left: 116%; */
+    position: relative;
+    left: 116%;
+
+}
+.cercl{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* background-color: #2bcb56; */
+    border: 1px solid black;
+    position: relative;
+    left: 116%;
+}
+.derin{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 116%;
+    line-height: 25PX;
+    position: relative;
+    bottom: 33%;
+
+
+}
+.tre{
+    position: relative;
+    /* bottom: 30%; */
+    /* left: 37%; */
+}
+.ree{
+    width: 350px;
+    /* background-color: #2bcb56; */
+    border: 1px solid #ca9a0a;
+    position: relative;
+    left: 37%;
+    bottom: 120px;
+    
+
+}
+.ress{
+    width: 160px;
+    /* background-color: #2bcb56; */
+    border: 1px solid #2bcb56;
+    position: relative;
+    left: 37%;
+    /* bottom: 30% */
+    bottom: 121.4px;
+    
+    
+   
+}
+.caare{
+    width: 40px;
+    height: 13px;
+    background-color: #2bcb56;
+    position: relative;
+    left: 62%;
+    /* bottom: 30% */
+    /* bottom: 135px; */
+    bottom: 129px;
+
+}
+.but button{
+    width: 50px;
+    height: 20px;
+    background-color: #2bcb56;
+    color: aliceblue;
+    border: 1px solid  #2bcb56;
+    position: relative;
+    left: 70%;
+    position: relative;
+    bottom: 120px;
+    gap: 10px;
+    font-size: 10px;
+}
+.but .tf{
+    width: 50px;
+    height: 20px;
+    background-color: #fbfaf8;
+    color: #2bcb56;
+    border: 1px solid  #2bcb56;
+
+    
+}
+@media only  screen and (max-width: 768px)
+{
+
+
+    body{
+        background: 100%;
+        background-color: rgb(249, 247, 245);
+        /* background-image: linear-gradient(to right, #e1f1e5, #62b1d5,rgb(73, 73, 216)); */
+        
+    }
+   
+   .section1{
+       display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        /* height: 100%; */
+    /* width: 100%; */
+    height: 100%;
+    background-color: rgb(244, 249, 249);
+    /* margin: 0 auto; */
+    margin-top: 10%;
+    position: relative;
+    right: 20%;
+
+    
+   }
+   .toph{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/1399561967/fr/photo/jeune-femme-daffaires-afro-am%C3%A9ricaine-joyeuse-travaillant-seule-sur-une-tablette-num%C3%A9rique.jpg?s=1024x1024&w=is&k=20&c=k4jZ0IgWTdUk2qljcd_DOzfWRjpskGJNZcl9A02BMfc=);
+    /* background-position: center; */
+    background-size: cover;
+    position: relative;
+    left: 5%;
+    
+    
+    
+
+
+}
+.deg{
+    width: 198px;
+    height: 400px;
+    /* border: 5px solid rgb(70, 44, 44); */
+    /* box-shadow: 0 15PX 40PX rgba(0, 0, 0, 5); */
+    background-image: linear-gradient(to right, #2bcb56, #dccb67,blue);
+    opacity: 0.4;
+}
+
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+   font-size: 10px;
+   position: relative;
+   top: 85%;
+   left: -190px;
+   line-height: 24px;
+   
+}
+.laire{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: 10px;
+    /* margin-left: 116%; */
+    /* position: relative; */
+    /* bottom: 30%; */
+    line-height: 20PX;
+    position: relative;
+    top: 85%;
+    left: -420px;
+    line-height: 24px;
+
+}
+
+.cerlce{
+    display: flex;
+    gap: 30px;
+    /* margin-left: 116%; */
+    position: relative;
+    top: 84%;
+    left: -420px;
+
+}
+.derin{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 116%;
+    line-height: 25PX;
+    position: relative;
+    top: 84%;
+    left: -420px;
+    
+
+
+}
+.tre{
+    position: relative;
+    top: 554PX;
+    left: -93px;
+    
+    /* bottom: 30%; */
+    /* left: 37%; */
+}
+.ree{
+    width: 260px;
+    /* background-color: #2bcb56; */
+    border: 1px solid #353227;
+    position: relative;
+    left: 37%;
+    bottom: 120px;
+    
+
+}
+.caare{
+    width: 40px;
+    height: 13px;
+    background-color: #2bcb56;
+    position: relative;
+    left: 97%;
+    /* bottom: 30% */
+    /* bottom: 135px; */
+    /* bottom: 129px; */
+
+
+}
+.but button{
+    width: 50px;
+    height: 20px;
+    background-color: #2bcb56;
+    color: aliceblue;
+    border: 1px solid  #2bcb56;
+    position: relative;
+    left: 30%;
+    top: 460px;
+    /* position: relative; */
+    /* bottom: 120px; */
+    /* gap: 0px; */
+    font-size: 10px;
+}
+}
+
